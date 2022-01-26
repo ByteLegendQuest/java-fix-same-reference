@@ -9,8 +9,8 @@ public class Home {
 
     public static void main(String[] args) {
         Cat cat1 = new Cat();
-        Cat cat2 = cat1;
-        Cat cat3 = cat2;
+        Cat cat2 = new Cat();
+        Cat cat3 = new Cat();
         System.out.println(cat1);
         System.out.println(cat2);
         System.out.println(cat3);
