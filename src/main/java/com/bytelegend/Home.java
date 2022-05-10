@@ -8,11 +8,14 @@ public class Home {
     public static Cat cat3;
 
     public static void main(String[] args) {
-        cat1 = new Cat();
-        cat2 = cat1;
-        cat3 = cat2;
+        cat1 = CreatNewCat();
+        cat2 = CreatNewCat();
+        cat3 = CreatNewCat();
         System.out.println(cat1);
         System.out.println(cat2);
         System.out.println(cat3);
+    }
+    public static Cat CreatNewCat() {
+        return new Cat();
     }
 }
