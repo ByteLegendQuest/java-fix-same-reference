@@ -11,8 +11,6 @@ public class Home {
         cat1 = new Cat();
         cat2 = new Cat();
         cat3 = new Cat();
-        cat2 = cat1;
-        cat3 = cat1;
         System.out.println(cat1);
         System.out.println(cat2);
         System.out.println(cat3);
